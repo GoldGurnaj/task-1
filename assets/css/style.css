@@ -2,67 +2,134 @@
 
 }
 /* Reset default margins and padding */
-* {
-    margin: ;
-    padding: 0;
-    box-sizing: border-box;
-  }
+* {     margin: ;     
+  padding: 0;     
+  box-sizing: border-box;   
+}      
+  /* Navbar styling */   
+  .navbar {     
+    display: flex;     
+    align-items: ;     
+    background-color: #010016;     
+    padding: 1rem 2rem;     
+    position: sticky;     
+    top: 0;     width: 100%;   
+  }      
+  /* Logo styling */   
+  .logo a {     
+    font-size: 1.5rem;     
+    font-weight: bold;     
+    color: rgb(255, 0, 0);     
+    text-decoration: none;   
+  }      
+/* Navigation links styling */   
+.nav-links 
+{     
+  list-style-type: none;     
+  display: flex;   
+}      
+.nav-links li 
+{     
+  margin-left: 2rem;   
+}      .nav-links a 
+{     
+  color: white;     
   
-  /* Navbar styling */
-  .navbar {
-    display: flex;
-    align-items: ;
-    background-color: #333;
-    padding: 1rem 2rem;
-    position: sticky;
-    top: 0;
-    width: 100%;
-  }
-  
-  /* Logo styling */
-  .logo a {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-  }
-  
-  /* Navigation links styling */
-  .nav-links {
-    list-style-type: none;
-    display: flex;
-  }
-  
-  .nav-links li {
-    margin-left: 2rem;
-  }
-  
-  .nav-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-  }
-  
-  /* Call-to-action button styling */
-  .cta-btn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  .cta-btn:hover {
-    background-color: #45a049;
-  }
-  
-  /* Hover effect for links */
-  .nav-links a:hover {
-    color: #ff6347;
+  text-decoration: none;     
+  font-size: 1rem;  
+ }      
+ /* Call-to-action button styling */   
+ .cta-btn {     
+  background-color: #4CAF50;     
+  color: white;     
+  padding: 10px 20px;     
+  text-decoration: none;     
+  border-radius: 5px;   }      
+  .cta-btn:hover {     
+    background-color: #45a049;   
+  }      
+  /* Hover effect for links */   
+  .nav-links a:hover {     
+    color: rgb(0, 76, 255);   
   }
   /* styles.css */
 body {
-  background-color: orange;
+  background-color: yellowgreen;
   font-family: Arial, sans-serif;
-  color: yellow;  /* Text color */
+  color: rgb(115, 0, 117);  /* Text color */
+  .boxed-content {
+    border: 5px solid #ffc800; /* Green border */
+    background-color: #a7ffea; /* Light gray background */
+    padding: 20px; /* Space around the content inside the box */
+    width: fit-content; /* Adjust width to content */
+    margin: 20px; /* Margin around the box */
+    font-family: Arial, sans-serif; /* Font for the text */
+}
+
+.title {
+    color: #333; /* Dark text color for title */
+    font-size: 24px; /* Larger size for the title */
+    margin-bottom: 10px; /* Space between title and paragraph */
+}
+
+.info {
+    color: #333; /* Slightly lighter color for the info */
+    font-size: 24px; /* Standard size for the info */
+}
+
+  
+  
+  
+  
+  
+  
+  
+  /* Container for the boxes */
+.container {
+  display: flex; /* Enables Flexbox */
+  justify-content: space-between; /* Places the boxes with space between */
+  padding: 20px;
+}
+
+/* Style for the left box */
+.left-box {
+  border: 5px solid #ffc800; /* Green border */
+  background-color: #a7ffea; /* Light gray background */
+  padding: 20px; /* Space around the content inside the box */
+  width: 45%; /* Set width of the left box */
+  font-family: Arial, sans-serif; /* Font for the text */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+/* Style for the right box */
+.right-box {
+  border: 5px solid #ffc800; /* Green border */
+  background-color: #a7ffea; /* Light gray background */
+  padding: 0px; /* Space around the content inside the box */
+  width: 45%; /* Set width of the right box */
+  font-family: Arial, sans-serif; /* Font for the text */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+/* Style for the title */
+.title {
+  color: #333; /* Dark text color for title */
+  font-size: 24px; /* Larger size for the title */
+  margin-bottom: 10px; /* Space between title and paragraph */
+}
+
+/* Style for the info paragraph */
+.info {
+  color: #333; /* Slightly lighter color for the info */
+  font-size: 20px; /* Standard size for the info */
+}
+
+
+
+.boxed-paragraph {
+  border: 5px solid #4CAF50; /* Green border */
+  background-color: #f9f9f9; /* Light gray background */
+  padding: 0px; /* Space around the text inside the box */
+  width: fit-content; /* Adjust width to content */
+  margin: 0px; /* Margin around the box */
 }
