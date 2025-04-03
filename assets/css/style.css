@@ -10,7 +10,7 @@
   .navbar {     
     display: flex;     
     align-items: ;     
-    background-color: #010016;     
+    background-color: #030036;     
     padding: 1rem 2rem;     
     position: sticky;     
     top: 0;     width: 100%;   
@@ -50,13 +50,13 @@
   }      
   /* Hover effect for links */   
   .nav-links a:hover {     
-    color: rgb(0, 76, 255);   
+    color: rgb(21, 255, 0);   
   }
   /* styles.css */
 body {
   background-color: yellowgreen;
   font-family: Arial, sans-serif;
-  color: rgb(115, 0, 117);  /* Text color */
+  color:#333(10, 10, 10);  /* Text color */
   .boxed-content {
     border: 5px solid #ffc800; /* Green border */
     background-color: #a7ffea; /* Light gray background */
@@ -69,7 +69,7 @@ body {
 .title {
     color: #333; /* Dark text color for title */
     font-size: 24px; /* Larger size for the title */
-    margin-bottom: 10px; /* Space between title and paragraph */
+    margin-bottom: 10; /* Space between title and paragraph */
 }
 
 .info {
@@ -114,7 +114,7 @@ body {
 /* Style for the title */
 .title {
   color: #333; /* Dark text color for title */
-  font-size: 24px; /* Larger size for the title */
+  font-size: 24px; /* Larger size for the title *
   margin-bottom: 10px; /* Space between title and paragraph */
 }
 
@@ -124,12 +124,10 @@ body {
   font-size: 20px; /* Standard size for the info */
 }
 
-
-
-.boxed-paragraph {
-  border: 5px solid #4CAF50; /* Green border */
-  background-color: #f9f9f9; /* Light gray background */
-  padding: 0px; /* Space around the text inside the box */
-  width: fit-content; /* Adjust width to content */
-  margin: 0px; /* Margin around the box */
+.box {
+  border: 5px solid #ffc800 ; /* Creates a border */
+  padding: 10px; /* Adds space inside the box */
+  margin: 10px; /* Adds space outside the box */
+  width: fit-content; /* Adjusts width to content */
+  background-color:#a7ffea/* Optional background color */
 }
